@@ -1,0 +1,30 @@
+body{
+    background-color: #E5E8E8 ;
+}
+
+img {
+    width: 20%;
+    margin: calc(10%/6);
+    border: #E5E8E8 2px solid;
+
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-transform: uppercase;
+    border-bottom: 2px solid #B2BABB ;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
+
+img:hover{
+    border-color: #626567;
+    border-radius: 50%;
+    box-shadow: 0 0.5em 0.5em -0.4em #B2BABB
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    transition: background-color 1s ease-in, border-radius 2s;
+}
